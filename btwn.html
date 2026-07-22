@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butawan Spring Private Resort & Water Spa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="picsGallery/butawanlogo copy.jpg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="bookingForm" href="booking.html">
+    
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <nav class="fixed w-full z-50 bg-[#1e0b36] bg-opacity-90 text-white py-4 px-8 flex justify-between items-center">
+        <div class="text-2xl font-bold logo-font accent-gold">Butawan</div>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+            <a href="#home" class="hover:text-yellow-400 transition">Home</a>
+            <a href="#about" class="hover:text-yellow-400 transition">About Us</a>
+            <a href="#amenities" class="hover:text-yellow-400 transition">Amenities</a>
+            <a href="#PHOTO GALLERY" class="hover:text-yellow-400 transition">PHOTO GALLERY</a>
+            <a href="#RATES & PACKAGES" class="hover:text-yellow-400 transition">RATES & PACKAGES</a>
+            <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+            <a href="#mop" class="hover:text-yellow-400 transition">MOP</a>     
+            <a href="#Faq" class="hover:text-yellow-400 transition">FAQ</a>
+            
+         
+        </div>
+        
+        <a href="booking.html" class="bg-yellow-500 text-black px-5 py-2 rounded-full font-bold text-xs hover:bg-yellow-400 transition">BOOK NOW</a>
+    </nav>    
+
+
+
+
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<div id="mobileMenu" class="mobile-menu">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT US</a>
+    <a href="#amenities">AMENITIES</a>
+    <a href="#gallery">PHOTO GALLERY</a>
+    <a href="#rates">RATES & PACKAGES</a>
+    <a href="#contact">CONTACT</a>
+    <a href="#mop">MOP</a>
+    <a href="#faq">FAQ</a>
+</div>
+
+
+    <section id="home" class="h-screen bg-gradient-custom flex items-center justify-center text-center px-4 relative overflow-hidden">
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-7xl text-white font-bold mb-4">Butawan</h1>
+            <p class="text-yellow-400 text-xl md:text-2xl tracking-widest uppercase mb-8">Spring Private Resort & Water Spa</p>
+            <p class="text-gray-300 max-w-lg mx-auto mb-10">“City of Crystal-Clear Springs”</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#about" class="border border-white text-white px-8 py-3 rounded-md hover:bg-white hover:text-purple-900 transition">Learn More</a>
+                <a href="#contact" class="bg-purple-600 text-white px-8 py-3 rounded-md hover:bg-purple-500 transition">View Rates</a>
+            </div>
+        </div>
+
+        <div class="hero-glass-flare"></div>
+    </section>
+
+    <section id="about" class="py-20 px-8 max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-3xl font-bold mb-6 border-l-4 border-yellow-500 pl-4">About Us</h2>
+            <p class="text-gray-600 leading-relaxed mb-4">
+                Butawan Spring Private Resort is a premier destination designed for those seeking privacy without compromising on luxury.
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+                Experience natural spring waters combined with modern spa technology in your own private sanctuary.
+            </p>
+        </div>
+        <div class="bg-gray-200 h-80 rounded-lg shadow-xl overflow-hidden">
+        <img src="picsGallery/backroundabt.jpg" alt="Resort Pool" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <section id="amenities" class="py-20 bg-gray-100 px-8">
+        <div class="max-w-6xl mx-auto text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Our Exclusive Features</h2>
+            <div class="w-24 h-1 bg-purple-800 mx-auto"></div>
+        </div>
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">💎</div>
+                <h3 class="text-xl font-bold mb-2">Private Access</h3>
+                <p class="text-sm text-gray-500">The entire resort is yours. No crowds, just complete privacy for your family or group of friends.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center border-t-4 border-purple-600">
+                <div class="text-4xl mb-4">🌊</div>
+                <h3 class="text-xl font-bold mb-2">Water Spa</h3>
+                <p class="text-sm text-gray-500">Enjoy a relaxing water spa and sauna experience with a peaceful atmosphere perfect for rest, comfort, and quality time with family and friends. </p>
+
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">🛏️</div>
+                <h3 class="text-xl font-bold mb-2">Modern Suites</h3>
+                <p class="text-sm text-gray-500">Experience comfort and relaxation in our fully air-conditioned suite rooms and elegantly designed private cabanas, offering a peaceful ambiance, modern amenities, and an exclusive resort experience for families, couples, and guests. </p>
+
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">🛜</div>
+                <h3 class="text-xl font-bold mb-2">Free Wi-Fi</h3>
+                <p class="text-sm text-gray-500">Stay connected with our complimentary high-speed Wi-Fi, available throughout the resort for your convenience. </p>
+
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">🎤</div>
+                <h3 class="text-xl font-bold mb-2">Karaoke Area</h3>
+                <p class="text-sm text-gray-500">Enjoy fun-filled moments with family and friends in our karaoke area, perfect for singing, celebrations, and entertainment. </p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">🍖</div>
+                <h3 class="text-xl font-bold mb-2">BBQ Grilling Area</h3>
+                <p class="text-sm text-gray-500">Enjoy outdoor cooking and dining with our dedicated BBQ and grilling area, perfect for family gatherings and celebrations. </p> <br>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-md text-center">
+                <div class="text-4xl mb-4">☕</div>
+                <h3 class="text-xl font-bold mb-2">Free Coffee</h3>
+                <p class="text-sm text-gray-500">Complimentary coffee is available for guests to enjoy throughout their stay. </p> <br>
+        
+    </section>
+
+
+
+
+
+  
+<section class="gallery" id="PHOTO GALLERY"> 
+
+    <div class="gallery-title">
+        <h2 class="text-3xl font-bold mb-4">Photo Gallery</h2>
+         <div class="w-24 h-1 bg-purple-800 mx-auto"></div> <br>
+         <div class="grid">
+
+        <!-- Pool -->
+        <div class="item">
+            <img src="picsGallery/p4.jpg" alt="Pool">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p7.jpg" alt="Pool">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p9.jpg" alt="Pool">
+        </div>
+
+        <!-- Rooms -->
+        <div class="item">
+            <img src="picsGallery/p1.jpg" alt="Room">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p13.jpg" alt="Room">
+        </div>
+
+        <!-- Cabana -->
+        <div class="item">
+            <img src="picsGallery/p12.jpg" alt="Cabana">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p5.jpg" alt="Cabana">
+        </div>
+
+        <div class="item">  <!-- inserted pic27 -->
+            <img src="picsGallery/p27.jpg" alt="Cabana">
+        </div>
+       
+        <!-- Jacuzzi -->
+        <div class="item">
+            <img src="picsGallery/p8.jpg" alt="Jacuzzi">
+        </div>  
+
+        <div class="item">     <!-- inserted pic25 -->
+            <img src="picsGallery/p25.jpg" alt="Jacuzzi">
+        </div>
+
+        <div class="item">     <!-- inserted pic26 -->
+            <img src="picsGallery/p26.jpg" alt="Jacuzzi">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p19.jpg" alt="Jacuzzi">
+        </div>
+
+        <!-- Coffee Shop -->
+        <div class="item">
+            <img src="picsGallery/p10.jpg" alt="Coffee Shop">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p11.jpg" alt="Coffee Shop">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p20.jpg" alt="Coffee Shop">
+        </div>
+
+        <!-- Available Pics -->
+        <div class="item">
+            <img src="picsGallery/p21.jpg" alt="Available Pic">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p17.jpg" alt="Available Pic">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p16.jpg" alt="Available Pic">
+        </div>
+        
+        <div class="item">
+            <img src="picsGallery/p18.jpg" alt="Available Pic">
+        </div>
+
+
+        <!-- inserted pic -->
+        <div class="item">
+            <img src="picsGallery/p24.jpg" alt="Available Pic">
+        </div>
+
+          <!-- Any pic -->
+        
+        <div class="item">
+            <img src="picsGallery/p14.jpg" alt="Any Pic">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p15.jpg" alt="Any Pic">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p22.jpg" alt="Any Pic">
+        </div>
+
+        <div class="item">
+            <img src="picsGallery/p23.jpg" alt="Any Pic">
+        </div>
+
+
+
+       
+        
+
+
+    </div>
+
+
+</section>
+
+    
+     <section class="rates-section" id="RATES & PACKAGES">
+
+
+    <div class="title">
+        
+         <h2 class="text-3xl font-bold mb-4">RATES & PACKAGES</h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="rates-container">
+
+        <!-- DAY SWIM -->
+
+        <div class="card">
+
+            <div class="icon">🏊</div>
+
+            <h2>DAY SWIM</h2>
+
+            <p class="time">9:00AM - 5:00PM | 20 PAX</p>
+
+            <div class="price-box">
+                <div>
+                    <h3>Regular Rate</h3>
+                    <small>Monday - Friday</small>
+                </div>
+
+                <span>₱5,000</span>
+            </div>
+
+            <div class="price-box">
+                <div>
+                    <h3>Weekend Rate</h3>
+                    <small>Saturday - Sunday</small>
+                </div>
+
+                <span>₱6,000</span>
+            </div>
+
+            <div class="price-box">
+                <div>
+                    <h3>Holidays</h3>
+                </div>
+
+                <span>₱7,000</span>
+            </div>
+
+            <div class="extra">
+
+                <h4>Additional Rooms</h4>
+
+                <div class="extra-item">
+                    <p>Guest Suite Room</p>
+                    <span>₱1500</span>
+                </div>
+
+                <div class="extra-item">
+                    <p>Native Cabana</p>
+                    <span>₱600</span>
+                </div>
+
+            </div>
+
+            <div class="extra">
+
+                <h4>Additional Pax</h4>
+
+                <div class="extra-item">
+                    <p>Adult</p>
+                    <span>₱150/head</span>
+                </div>
+
+                <div class="extra-item">
+                    <p>Child</p>
+                    <span>₱100/head</span>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+        <!-- OVERNIGHT -->
+
+        <div class="card">
+
+            <div class="icon">🏊</div>
+
+            <h2>OVERNIGHT</h2>
+
+            <p class="time">6:00PM - 8:00AM | 20 PAX</p>
+
+            <div class="price-box">
+                
+                <h3>Regular Rate</h3>
+                <span>₱6,500</span>
+            </div>
+
+            <div class="price-box">
+                <h3>Weekend</h3>
+                <span>₱7,500</span>
+            </div>
+
+            <div class="price-box">
+                <h3>Holidays</h3>
+                <span>₱8,500</span>
+            </div>
+
+            <div class="extra">
+
+                <h4>Additional Rooms</h4>
+
+                <div class="extra-item">
+                    <p>Guest Suite Room</p>
+                    <span>₱1500</span>
+                </div>
+
+                <div class="extra-item">
+                    <p>Native Cabana</p>
+                    <span>FREE</span>
+                </div>
+
+            </div>
+
+            <div class="extra">
+
+                <h4>Additional Pax</h4>
+
+                <div class="extra-item">
+                    <p>Adult</p>
+                    <span>₱150/head</span>
+                </div>
+
+                <div class="extra-item">
+                    <p>Child</p>
+                    <span>₱100/head</span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="rates-container">
+
+        <!-- Special Events-->
+
+        <div class="card">
+
+            <div class="icon">🏊</div>
+
+            <h2>SPECIAL EVENTS PACKAGES</h2>
+
+            <p class="time">12HOURS | 50+ PAX</p>
+
+            <div class="price-box">
+                <h3>SPECIAL EVENT PRICE</h3>
+                <span>₱12,000</span>
+            </div> <br>
+                    <h3>+ EXCLUSIVE RENT OF THE RESORT</h3> <br>
+                    <h3>+ EXCLUSIVE USE IF ALL AMENITIES</h3> <br>
+                    <h3>+ FREE USE OF NATIVE CABANA ROOM</h3> <br>
+                    <h3>+ FREE USE OF GUEST SUITE ROOM</h3> <br>
+                    
+
+        </div>
+
+
+    </div>
+    
+
+</section>
+
+    <section id="contact" class="py-20 px-8 bg-white">
+        <div class="max-w-4xl mx-auto bg-[#1e0b36] rounded-2xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
+            <div class="p-10 text-white md:w-1/2">
+                <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
+                <div class="space-y-4">
+                    <p class="flex items-center"><span class="accent-gold mr-3">📍</span> San Roque, Iriga City, Camarines Sur</p>
+                    <p class="flex items-center"><span class="accent-gold mr-3">✉️</span> butawanspringprws@gmail.com</p>
+                    <p class="flex items-center"><span class="accent-gold mr-3">📞</span> +63 948-0222-851</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="mop-section" id="mop">
+
+    <h1>Mode of Payment</h1>
+
+    <div class="mop-line"></div>
+
+    <p class="coming-text">
+        🚧 Payment Methods Coming Soon 🚧
+    </p>
+
+    <p class="coming-subtext">
+       Our online payment methods are still undergoing development.
+    If you would like to reserve, please message our official Facebook page for reservation and payment assistance.
+</p>    
+
+
+<p>🟢Booked  </p>
+<p> 🔵Pending Reservation </p>
+    
+
+
+
+<p class="take-note">
+    <strong>Take Note:</strong> A 50% reservation fee is required to confirm and secure your booking.
+    Reservations without payment confirmation will remain pending and may not be included in our official schedule.
+</p>
+ 
+
+
+</section>
+
+        <!-- FAQ SECTION -->
+     <section class="faq-section" id="Faq">
+    <h2 class="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+                <div class="w-24 h-1 bg-purple-800 mx-auto"></div>
+
+
+    <!-- FAQ BOX 1 -->
+    <div class="faq-box">
+        <h3>Do you allow walk-ins or same-day bookings?</h3>
+        <p>Yes, we allow walk-ins as long as no other reservations are scheduled on the same day. However, we recommmend making reservations in advance to secure your slot.</p>
+    </div>
+
+    <!-- FAQ BOX 2 -->
+    <div class="faq-box">
+        <h3>Do you offer individual entrance fees?</h3>
+        <p>Our private resort is exclusive for one group per booking. The same rates apply for group of 20 people of fewer.</p>
+    </div>
+
+    <!-- FAQ BOX 3 -->
+    <div class="faq-box">
+        <h3>Can we extend our stay? How much do you charge for extensions? </h3>
+        <p>Extensions are allowed only if there are no available bookings before and after your slots. The rate for extensions is P1,000 per hour.</p>
+    </div>
+
+    <!-- FAQ BOX 4 -->
+    <div class="faq-box">
+        <h3>If we shorten our stay, will we be charged less?</h3>
+        <p>The rates remain the same regardless of how much time is used within the reserved time frame.</p>
+    </div>
+
+    <!-- FAQ BOX 5 -->
+    <div class="faq-box">
+        <h3>What time can we start with the Special Events Package?</h3>
+        <p>The Special Events Package can start as early as 9:00 AM, provide it remains within the 12-hours limit.</p>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center text-sm">
+        <p>&copy; 2026 Butawan Spring Private Resort & Water Spa.</p>
+    </footer>
+
+
+<script src="index.js"></script>
+</body>
+</html>
+

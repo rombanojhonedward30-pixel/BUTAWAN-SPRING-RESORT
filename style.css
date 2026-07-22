@@ -1,0 +1,748 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Great+Vibes&display=swap');
+
+
+body { 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.logo-font { 
+    font-family: 'Great Vibes', cursive; 
+}
+
+/* Brand Colors & Gradients */
+.bg-gradient-custom{
+    background:
+    linear-gradient(rgba(10,0,30,0.65), rgba(30,0,60,0.70)),
+    url("picsGallery/butawanlogo.jpg");
+
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.accent-gold { 
+    color: #facc15; 
+}
+
+
+.hero-glass-flare {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 24rem; 
+    height: 24rem;
+    background-color: white;
+    opacity: 0.05; 
+    filter: blur(64px);
+    border-radius: 9999px;
+    margin-right: -5rem;
+    margin-top: -5rem;
+}
+/* TITLE */
+
+/* Navigation Blur Effect */
+nav {
+    backdrop-filter: blur(8px);
+}
+
+    
+
+/* TITLE */
+.feature-box h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #1b0b3b;
+}
+/* TEXT */
+.feature-box p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+.features-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+   margin-right: -5rem;
+    margin-top: -5rem;
+    padding: 40px;
+}
+
+.faq-section{
+    padding: 60px 20px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.faq-box{
+    width: 70%;
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.faq-box h3{
+    color: #2b0a4a;
+    margin-bottom: 10px;
+}
+
+.faq-box p{
+    color: #666;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins, sans-serif;
+}
+
+.rates-section{
+    width:100%;
+    padding:80px 8%;
+    background:#f5f5f5;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.title h1{
+    font-size:55px;
+    color:#2d1245;
+}
+
+.line{
+    width:120px;
+    height:4px;
+    background:#7b2cbf;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+ /* RATES & PACKAGES */
+.rates-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    gap:40px;
+}
+
+.card{
+    background:#fff;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    width:90px;
+    height:90px;
+    background:#f2e8ff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+    font-size:40px;
+}
+
+.card h2{
+    text-align:center;
+    color:#5a189a;
+    font-size:38px;
+    margin-top:20px;
+}
+
+.time{
+    text-align:center;
+    margin:20px 0;
+    color:#444;
+    font-size:18px;
+}
+
+.desc{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+.price-box{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #ddd;
+}
+
+.price-box h3{
+    color:#222;
+}
+
+.price-box small{
+    color:#777;
+}
+
+.price-box span{
+    font-size:30px;
+    font-weight:bold;
+    color:#6a0dad;
+}
+
+.extra{
+    margin-top:30px;
+}
+
+.extra h4{
+    text-align:center;
+    color:#6a0dad;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.extra-item{
+    display:flex;
+    justify-content:space-between;
+    padding:14px 0;
+    border-bottom:1px solid #eee;
+}
+
+.extra-item span{
+    color:#6a0dad;
+    font-weight:600;
+}
+
+@media(max-width:768px){
+
+    .title h1{
+        font-size:40px;
+    }
+
+    .card{
+        padding:30px;
+    }
+
+}
+
+
+.container{
+    width:100%;
+    max-width:1400px;
+    margin:auto;
+    padding:20px;
+}
+/* SLIDER CONTAINER */
+
+.slider{
+    width:800px;
+    height:350px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:10px;
+}
+
+
+
+
+
+/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f7f8fc;
+}
+
+/* ===========================
+   GALLERY SECTION
+=========================== */
+
+.gallery{
+    width:100%;
+    padding:70px 8%;
+}
+
+.gallery-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.gallery-title h1{
+    font-size:42px;
+    color:#43235E;
+    margin-bottom:10px;
+}
+
+.gallery-title p{
+    color:#666;
+    font-size:17px;
+}
+
+/* ===========================
+   IMAGE GRID
+=========================== */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+
+}
+
+/* ===========================
+   IMAGE CARD
+=========================== */
+
+.item{
+
+    overflow:hidden;
+
+    border-radius:20px;
+
+    background:#fff;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+    transition:.35s;
+
+
+}
+
+.item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.18);
+
+}
+
+.item img{
+
+    width:100%;
+
+    height:280px;
+
+    object-fit:cover;
+
+    transition:.5s;
+
+}
+
+.item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+/* ===========================
+   LIGHTBOX
+=========================== */
+
+#lightbox{
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,.92);
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:999;
+
+}
+
+#lightbox img{
+
+    max-width:90%;
+
+    max-height:85%;
+
+    border-radius:15px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+}
+
+#close{
+
+    position:absolute;
+
+    right:30px;
+
+    top:20px;
+
+    color:white;
+
+    font-size:55px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#close:hover{
+
+    color:#FFD700;
+
+}
+
+/* ===========================
+   RESPONSIVE TABLET
+=========================== */
+
+@media(max-width:992px){
+
+.gallery{
+
+padding:60px 30px;
+
+}
+
+.gallery-title h1{
+
+font-size:34px;
+
+}
+
+.item img{
+
+height:240px;
+
+}
+
+}
+
+/* ===========================
+   RESPONSIVE MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.gallery{
+
+padding:40px 15px;
+
+}
+
+.gallery-title h1{
+
+font-size:28px;
+
+}
+
+.gallery-title p{
+
+font-size:15px;
+
+}
+
+.grid{
+
+grid-template-columns:1fr;
+
+gap:18px;
+
+}
+
+.item img{
+
+height:220px;
+
+}
+
+#close{
+
+font-size:45px;
+
+right:20px;
+
+}
+
+}
+
+/* ===========================
+   SMALL PHONES
+=========================== */
+
+@media(max-width:480px){
+
+.gallery-title h1{
+
+font-size:24px;
+
+}
+
+.gallery-title p{
+
+font-size:14px;
+
+}
+
+.item img{
+
+height:320px;
+
+}
+
+}
+
+
+
+
+
+
+
+/* MOP DESIGN*/
+.mop-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    width:100%;
+    padding:80px 20px;
+}
+
+.mop-section h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.mop-line{
+    width: 120px;
+    height: 5px;
+    background: purple;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.mop-section p{
+    font-size: 22px;
+    max-width: 800px;
+    line-height: 1.8;
+}
+.payment-text span{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
+}
+.mop-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+.mop-section h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.mop-line{
+    width: 140px;
+    height: 5px;
+    background: purple;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.coming-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 20px;
+}
+
+.coming-subtext{
+    font-size: 22px;
+    max-width: 800px;
+    line-height: 1.8;
+    color: #444;
+}
+.take-note{
+    margin-top: 30px;
+    padding: 20px;
+
+    background: #fff3cd;
+    border-left: 6px solid #ffcc00;
+
+    color: #333;
+    font-size: 20px;
+    line-height: 1.8;
+
+    max-width: 900px;
+    border-radius: 10px;
+}
+/* CP AND PC POV */
+
+.desktop-menu{
+    display:flex;
+    gap:25px;
+}
+
+.menu-btn{
+    display:none;
+    background:none;
+    border:none;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.mobile-menu{
+    display:none;
+    position:fixed;
+    top:70px;
+    right:0;
+    width:250px;
+    background:#2d1148;
+    flex-direction:column;
+    z-index:9999;
+}
+
+.mobile-menu.show{
+    display:flex;
+}
+
+.mobile-menu a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+}
+
+/* Cellphone */
+@media(max-width:768px){
+
+    .desktop-menu{
+        display:none !important;
+    }
+
+    .menu-btn{
+        display:block !important;
+    }
+    
+}
+
+/* Hide mobile menu on desktop */
+@media (min-width: 769px) {
+    .mobile-menu,
+    .menu-btn,
+    .nav-menu {
+        display: none !important;
+    }
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+    .desktop-menu {
+        display: none !important;
+    }
+
+    .menu-btn {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+.gallery-tabs{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.tab{
+    padding:10px 20px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.tab.active{
+    background:#4b2a6a;
+    color:white;
+}
+
+.gallery-container{
+    max-width:1200px;
+    margin:auto;
+    overflow:hidden;
+}
+
+.gallery-category{
+    display:none;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+    animation:slide .4s ease;
+}
+
+.gallery-category.active{
+    display:grid;
+}
+
+.gallery-category img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+@keyframes slide{
+    from{
+        opacity:0;
+        transform:translateX(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateX(0);
+    }
+}
+
