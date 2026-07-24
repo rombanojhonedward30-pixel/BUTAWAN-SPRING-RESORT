@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="picsGallery/butawanlogo copy.jpg">
+   <a href="https://www.facebook.com/share/1Cxzxgd6wF/"
+   target="_blank"
+   class="chat-with-us">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+         alt="Messenger">
+
+</a>
+</a>
+
+    <title>Booking Form</title>
+
+    <link rel="stylesheet" href="bckgrnd.css">
+
+
+<div class="container">
+
+    <form id="bookingForm">
+        <h2>RESERVATION FORM</h2> <br>
+
+        <input type="text" id="name" placeholder="Full Name">
+    
+        <input type="tel" id="contact" placeholder="Contact Number">
+        
+        <input type="email" id="email" placeholder="Email">
+        
+        <input type="address" id="address" placeholder="Address">
+       
+        <input type="date" id="date">
+
+
+        <select id="schedule">
+            <option value="">Select Schedule</option>
+            <option value="Day Tour">Day (9:00 AM - 5:00 PM)</option>
+            <option value="Night Swimming">Night (6:00 PM - 10:00 PM)</option>
+            <option value="Special Event">Special Event (12HRS)</option>
+
+            <br>
+        </select>
+        
+        
+        <div class="note-box"> <br>
+        <h3>Take Note!</h3>
+        <p>
+        Take note:  Before selecting your dates, kindly scan the QR code first to check availability.
+        </p>
+        </div>
+
+        <section class="qr-section">
+            <div class="qr-code">
+                <img src="bgGallery/QR CODE.jpg" alt="QR Code">
+
+            </section>
+    
+        
+        
+             <button type="submit">
+            Submit Booking
+        </button>
+
+    </form>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+emailjs.init("n4KsYFipAqxh_9ujN");
+</script>
+
+<script src="index.js"></script>
+
+</body>
+</html>
+
+
